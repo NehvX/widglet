@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_add"
+        android:shortcutId="add_widget"
+        android:shortcutShortLabel="@string/shortcut_add">
+        <intent
+            android:action="com.widglet.app.ADD_WIDGET"
+            android:targetClass="com.widglet.app.ui.ShortcutActivity"
+            android:targetPackage="com.widglet.app" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_next"
+        android:shortcutId="next_photo"
+        android:shortcutShortLabel="@string/shortcut_next">
+        <intent
+            android:action="com.widglet.app.NEXT_PHOTO"
+            android:targetClass="com.widglet.app.ui.ShortcutActivity"
+            android:targetPackage="com.widglet.app" />
+    </shortcut>
+</shortcuts>

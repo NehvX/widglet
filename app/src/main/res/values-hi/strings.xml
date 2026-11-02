@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Widglet</string>
+    <string name="widget_description">होम स्क्रीन पर आपकी तस्वीरें: एल्बम या चुनी हुई, कटआउट, घड़ी और ट्रांज़िशन के साथ।</string>
+    <string name="widget_loading">लोड हो रहा है…</string>
+    <string name="widget_setup">Widglet सेट करने के लिए टैप करें</string>
+    <string name="widget_permission">Widglet को फ़ोटो एक्सेस चाहिए। खोलने के लिए टैप करें।</string>
+    <string name="widget_empty">दिखाने के लिए कोई फ़ोटो नहीं। एल्बम या फ़ोटो चुनने के लिए टैप करें।</string>
+    <string name="widget_cd">फ़ोटो विजेट: %1$s</string>
+    <string name="tile_next">अगली फ़ोटो</string>
+    <string name="tile_pause">Widglet रोकें</string>
+    <string name="paused">रुका हुआ</string>
+    <string name="running">चल रहा है</string>
+    <string name="shortcut_add">विजेट जोड़ें</string>
+    <string name="shortcut_next">अगली फ़ोटो</string>
+    <string name="toast_next">फ़ोटो बदल रही हैं…</string>
+    <string name="no_viewer">कोई ऐप यह फ़ोटो नहीं खोल सकता।</string>
+    <string name="pin_unsupported">आपका लॉन्चर ऐप से विजेट नहीं जोड़ सकता। होम स्क्रीन को देर तक दबाएँ → विजेट → Widglet।</string>
+
+    <string name="onb_title">Widglet में आपका स्वागत है</string>
+    <string name="onb_intro">अपनी पसंदीदा तस्वीरें होम स्क्रीन पर लगाएँ, अपने समय पर बदलें, और विषय को काटकर घड़ी के सामने उभारें।</string>
+    <string name="onb_readonly_t">आपकी गैलरी सुरक्षित रहती है</string>
+    <string name="onb_readonly">Widglet आपकी तस्वीरें केवल पढ़ता है। यह आपकी गैलरी में कुछ भी हटाता, खिसकाता, बदलता या दोबारा सेव नहीं करता। कटआउट और कैश Widglet के निजी स्टोरेज में रहते हैं।</string>
+    <string name="onb_perm_t">फ़ोटो एक्सेस</string>
+    <string name="onb_perm">एल्बम दिखाने के लिए Widglet फ़ोटो पढ़ने की अनुमति माँगता है। Android 14+ पर आप केवल चुनी हुई फ़ोटो की अनुमति दे सकते हैं; Widglet उसके साथ भी काम करता है।</string>
+    <string name="onb_privacy_t">निजता पहले</string>
+    <string name="onb_privacy">कोई नेटवर्क अनुमति नहीं, कोई एनालिटिक्स नहीं, कोई विज्ञापन नहीं, कोई खाता नहीं। सारी प्रोसेसिंग (बैकग्राउंड हटाना भी) आपके फ़ोन पर होती है।</string>
+    <string name="onb_allow">फ़ोटो एक्सेस दें</string>
+    <string name="onb_picker_only">बिना अनुमति जारी रखें (केवल चुनी हुई फ़ोटो)</string>
+    <string name="onb_picker_note">फ़ोटो चुनने के लिए सिस्टम फ़ोटो पिकर का उपयोग होता है, जिसमें कोई अनुमति नहीं चाहिए।</string>
+
+    <string name="add_widget">विजेट जोड़ें</string>
+    <string name="storage">स्टोरेज</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="partial_title">केवल चुनी हुई फ़ोटो का एक्सेस</string>
+    <string name="partial_body">एल्बम में केवल वही फ़ोटो दिखेंगी जिनकी आपने अनुमति दी है। आप कभी भी और फ़ोटो चुन सकते हैं या सिस्टम सेटिंग्स में सभी फ़ोटो की अनुमति दे सकते हैं।</string>
+    <string name="noperm_title">फ़ोटो एक्सेस नहीं</string>
+    <string name="noperm_body">एल्बम के लिए फ़ोटो एक्सेस चाहिए। चुनी हुई फ़ोटो इसके बिना भी काम करती हैं।</string>
+    <string name="select_more">और फ़ोटो चुनें</string>
+    <string name="grant">एक्सेस दें</string>
+    <string name="open_settings">सिस्टम सेटिंग्स</string>
+    <string name="pause_all">सभी विजेट रोकें</string>
+    <string name="pause_all_sub">समय पर फ़ोटो बदलना रोकता है (क्विक सेटिंग्स टाइल के रूप में भी)।</string>
+    <string name="no_widgets">अभी कोई विजेट नहीं</string>
+    <string name="no_widgets_hint">\"विजेट जोड़ें\" दबाएँ, या होम स्क्रीन को देर तक दबाएँ → विजेट → Widglet।</string>
+    <string name="widget_n">विजेट %1$d</string>
+    <string name="not_set_up">अभी सेट नहीं</string>
+    <string name="sources_summary">%1$d एल्बम · %2$d चुनी हुई फ़ोटो</string>
+    <string name="cutout">कटआउट</string>
+    <string name="next_photo">अगली फ़ोटो</string>
+    <string name="duplicate">विजेट की कॉपी बनाएँ</string>
+    <string name="edit">बदलें</string>
+
+    <string name="setup_widget">विजेट सेट करें</string>
+    <string name="edit_widget">विजेट बदलें</string>
+    <string name="back">पीछे</string>
+    <string name="done">हो गया</string>
+    <string name="widget_name">विजेट का नाम</string>
+    <string name="preview_loading">प्रीव्यू लोड हो रहा है…</string>
+    <string name="preview_empty">प्रीव्यू देखने के लिए एल्बम या फ़ोटो चुनें</string>
+    <string name="preview_cd">विजेट प्रीव्यू</string>
+    <string name="size_actual">असली आकार</string>
+
+    <string name="sec_photos">फ़ोटो</string>
+    <string name="readonly_reminder">Widglet इन फ़ोटो को केवल पढ़ता है। आपकी गैलरी में कभी कुछ नहीं बदलता।</string>
+    <string name="albums">एल्बम</string>
+    <string name="no_albums_selected">कोई एल्बम नहीं चुना।</string>
+    <string name="remove_x">%1$s हटाएँ</string>
+    <string name="choose_albums">एल्बम चुनें</string>
+    <string name="pick_photos">फ़ोटो चुनें</string>
+    <string name="picked_count">%1$d चुनी हुई फ़ोटो</string>
+    <string name="clear_picked">सभी चुनी हुई फ़ोटो हटाएँ</string>
+    <string name="manage_photos">फ़ोटो प्रबंधित करें (%1$d छिपी)</string>
+    <string name="no_albums_found">कोई एल्बम नहीं मिला। फ़ोटो एक्सेस जाँचें।</string>
+    <string name="n_photos">%1$d फ़ोटो</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="ok">ठीक है</string>
+
+    <string name="sec_smart">स्मार्ट चयन</string>
+    <string name="on_this_day">आज के दिन</string>
+    <string name="on_this_day_sub">पिछले वर्षों में आज की तारीख़ पर ली गई फ़ोटो (न हों तो सभी फ़ोटो)।</string>
+    <string name="favourites_only">केवल पसंदीदा</string>
+    <string name="favourites_sub">आपकी गैलरी का पसंदीदा निशान (केवल पढ़ा जाता है)।</string>
+    <string name="skip_screenshots">स्क्रीनशॉट छोड़ें</string>
+    <string name="skip_small">छोटी तस्वीरें छोड़ें</string>
+    <string name="skip_small_sub">छोटी भुजा %1$d px से कम वाली तस्वीरें अनदेखी करें।</string>
+    <string name="min_side">न्यूनतम छोटी भुजा</string>
+    <string name="skip_duplicates">डुप्लिकेट छोड़ें</string>
+    <string name="skip_duplicates_sub">एक जैसे साइज़ और आयाम वाली फ़ोटो डुप्लिकेट मानी जाती हैं।</string>
+    <string name="date_range">तारीख़ सीमा</string>
+    <string name="from_x">से: %1$s</string>
+    <string name="to_x">तक: %1$s</string>
+    <string name="any">कोई भी</string>
+    <string name="clear">साफ़ करें</string>
+    <string name="time_rules">समय के अनुसार एल्बम</string>
+    <string name="time_rules_sub">सुबह, दोपहर, शाम, रात या सप्ताह के दिन/सप्ताहांत के लिए अलग एल्बम।</string>
+    <string name="use_default_albums">ऊपर वाले एल्बम उपयोग होते हैं</string>
+    <string name="change">बदलें</string>
+
+    <string name="sec_timing">फ़ोटो कब बदलें</string>
+    <string name="when_change">फ़ोटो बदलें</string>
+    <string name="every">हर</string>
+    <string name="custom">कस्टम</string>
+    <string name="custom_interval">कस्टम अंतराल</string>
+    <string name="flip_every">हर इतने में बदलें</string>
+    <string name="order">क्रम</string>
+    <string name="skip_saver">बैटरी सेवर में रोकें</string>
+    <string name="skip_saver_sub">बैटरी सेवर चालू होने पर फ़ोटो न बदलें।</string>
+    <string name="battery_impact">बैटरी पर असर: %1$s</string>
+    <string name="battery_event">केवल आपके करने पर बदलता है (टैप, अनलॉक या स्क्रीन चालू); कोई टाइमर नहीं।</string>
+    <string name="battery_slideshow">कोई वेक-अप नहीं: होम स्क्रीन दिखने पर आपका लॉन्चर फ़ोटो बदलता है।</string>
+    <string name="battery_wakeups">दिन में लगभग %1$d बैकग्राउंड अपडेट (Android इन्हें समूह में चलाता है)।</string>
+    <string name="hours_n">%1$d घं</string>
+    <string name="minutes_n">%1$d मि</string>
+
+    <string name="sec_transition">ट्रांज़िशन</string>
+    <string name="speed">गति</string>
+    <string name="transition_limits">विजेट केवल साधारण एनिमेशन चला सकते हैं। कुछ लॉन्चर एनिमेशन छोड़ देते हैं; फ़ोटो फिर भी बदलती है।</string>
+
+    <string name="sec_cutout">कटआउट (केवल विषय)</string>
+    <string name="cutout_mode">कटआउट मोड</string>
+    <string name="cutout_mode_sub">फ़ोन पर ही बैकग्राउंड हटाएँ और केवल विषय दिखाएँ।</string>
+    <string name="cutout_bg">कटआउट के पीछे</string>
+    <string name="bg_color_cutout">बैकग्राउंड रंग</string>
+    <string name="gradient_end">ग्रेडिएंट का अंतिम रंग</string>
+    <string name="no_subject">यदि कोई स्पष्ट विषय न मिले</string>
+    <string name="quality">कटआउट गुणवत्ता</string>
+    <string name="see_estimate">स्टोरेज अनुमान देखें</string>
+    <string name="prefer_subjects">विषय वाली फ़ोटो को प्राथमिकता</string>
+    <string name="prefer_subjects_sub">तैयार कटआउट वाली फ़ोटो पहले दिखाएँ।</string>
+    <string name="lazy_mode">लेज़ी मोड</string>
+    <string name="lazy_mode_sub">पूरा एल्बम नहीं, केवल अगली %1$d फ़ोटो तैयार करें। स्टोरेज बचता है।</string>
+    <string name="lazy_count">पहले से तैयार फ़ोटो</string>
+    <string name="only_charging">बैच प्रोसेसिंग केवल चार्जिंग पर</string>
+    <string name="only_wifi">बैच प्रोसेसिंग केवल वाई-फ़ाई पर</string>
+    <string name="only_wifi_sub">प्रोसेसिंग फ़ोन पर ही होती है; यह बस \"घर पर\" के संकेत के रूप में अनमीटर्ड कनेक्शन का इंतज़ार करता है।</string>
+    <string name="shadow">छाया</string>
+    <string name="softness">कोमलता</string>
+    <string name="offset">ऑफ़सेट</string>
+    <string name="sticker_outline">स्टिकर आउटलाइन</string>
+    <string name="thickness">मोटाई</string>
+    <string name="outline_color">आउटलाइन रंग</string>
+    <string name="model_downloading">Google Play सेवाएँ अभी ऑन-डिवाइस मॉडल डाउनलोड कर रही हैं। Widglet अपने आप दोबारा कोशिश करेगा।</string>
+    <string name="cutouts_waiting">शुरू होने का इंतज़ार (चार्जिंग / वाई-फ़ाई शर्तें)…</string>
+    <string name="cutouts_progress">कटआउट बन रहे हैं: %2$d में से %1$d</string>
+    <string name="generate_all">अभी सभी कटआउट बनाएँ</string>
+    <string name="cutout_model_note">आपके फ़ोन पर ML Kit सब्जेक्ट सेगमेंटेशन का उपयोग। कुछ भी अपलोड नहीं होता।</string>
+
+    <string name="sec_look">आकार और रूप</string>
+    <string name="layout">लेआउट</string>
+    <string name="collage_count">कोलाज में फ़ोटो</string>
+    <string name="shape">आकृति / फ़्रेम</string>
+    <string name="corner_radius">कोने की गोलाई</string>
+    <string name="padding">पैडिंग</string>
+    <string name="fit">फ़ोटो फ़िट</string>
+    <string name="filter">फ़िल्टर</string>
+    <string name="widget_bg">विजेट बैकग्राउंड</string>
+    <string name="border">बॉर्डर</string>
+    <string name="border_width">बॉर्डर चौड़ाई</string>
+    <string name="border_color">बॉर्डर रंग</string>
+    <string name="opacity">अपारदर्शिता</string>
+    <string name="color_transparent">पारदर्शी</string>
+
+    <string name="sec_overlay">टेक्स्ट और घड़ी</string>
+    <string name="show_date">फ़ोटो की तारीख़ दिखाएँ</string>
+    <string name="show_album">एल्बम का नाम दिखाएँ</string>
+    <string name="text_style">टेक्स्ट शैली</string>
+    <string name="accent">एक्सेंट रंग</string>
+    <string name="clock">घड़ी</string>
+    <string name="clock_sub">लाइव घड़ी। कटआउट मोड में विषय उसके सामने रहता है (डेप्थ इफ़ेक्ट)।</string>
+    <string name="clock_pos">घड़ी की जगह</string>
+    <string name="clock_mono">मोनोस्पेस अंक</string>
+    <string name="clock_date">घड़ी के नीचे तारीख़</string>
+    <string name="clock_color">घड़ी का रंग</string>
+    <string name="make_depth">डेप्थ घड़ी बनाएँ (मूल फ़ोटो पर कटआउट)</string>
+
+    <string name="sec_tap">टैप क्रियाएँ</string>
+    <string name="on_tap">टैप करने पर</string>
+    <string name="on_double_tap">दो बार टैप करने पर</string>
+    <string name="double_tap_note">डबल टैप चालू होने पर, एक टैप थोड़ा रुककर काम करता है।</string>
+    <string name="long_press_note">देर तक दबाना लॉन्चर विजेट हिलाने/बदलने के लिए रखते हैं, इसलिए इसे बदला नहीं जा सकता।</string>
+
+    <string name="sec_presets">प्रीसेट, कॉपी और बैकअप</string>
+    <string name="builtin_presets">बिल्ट-इन शैलियाँ</string>
+    <string name="my_presets">मेरी शैलियाँ</string>
+    <string name="save_preset">शैली सेव करें</string>
+    <string name="share_preset">शैली शेयर करें</string>
+    <string name="paste_preset">शैली इम्पोर्ट करें</string>
+    <string name="preset_name">शैली का नाम</string>
+    <string name="preset_json">शेयर की गई शैली का टेक्स्ट चिपकाएँ</string>
+    <string name="copy_from">सभी सेटिंग्स कॉपी करें</string>
+    <string name="backup">बैकअप</string>
+    <string name="export">सेटिंग्स एक्सपोर्ट करें</string>
+    <string name="import_">इम्पोर्ट</string>
+    <string name="backup_note">इस विजेट की सेटिंग्स आपकी चुनी जगह पर JSON फ़ाइल में सेव होती हैं। फ़ोटो कभी एक्सपोर्ट नहीं होतीं।</string>
+    <string name="exported">सेटिंग्स एक्सपोर्ट हुईं</string>
+    <string name="export_failed">एक्सपोर्ट विफल</string>
+    <string name="imported">सेटिंग्स इम्पोर्ट हुईं</string>
+    <string name="import_failed">ये सेटिंग्स पढ़ी नहीं जा सकीं</string>
+    <string name="save">सेव करें</string>
+
+    <string name="manage_photos_title">इस विजेट की फ़ोटो</string>
+    <string name="hide_note">किसी फ़ोटो को इस विजेट से छिपाने के लिए टैप करें। इसका असर केवल Widglet पर होता है, गैलरी पर कभी नहीं।</string>
+    <string name="hidden">छिपी हुई</string>
+    <string name="photo">फ़ोटो</string>
+    <string name="hide">विजेट से छिपाएँ</string>
+    <string name="unhide">विजेट में दिखाएँ</string>
+    <string name="cutout_ready">कटआउट तैयार</string>
+    <string name="cutout_none">कोई स्पष्ट विषय नहीं मिला</string>
+    <string name="cutout_missing">कटआउट अभी नहीं बना</string>
+    <string name="touch_up">कटआउट सुधारें</string>
+    <string name="close">बंद करें</string>
+    <string name="erase">मिटाएँ</string>
+    <string name="restore">वापस लाएँ</string>
+    <string name="brush_size">ब्रश का आकार</string>
+    <string name="touch_up_note">बदलाव केवल Widglet की निजी कटआउट कॉपी में सेव होते हैं। आपकी मूल फ़ोटो नहीं बदलती।</string>
+
+    <string name="space_used">Widglet द्वारा उपयोग की गई जगह</string>
+    <string name="usage_breakdown">कटआउट %1$s · कैश %2$s · सेटिंग्स %3$s</string>
+    <string name="free_space">डिवाइस पर खाली: %1$s</string>
+    <string name="private_only">यहाँ सब कुछ Widglet के निजी स्टोरेज में है। आपकी गैलरी को कभी गिना या छुआ नहीं जाता।</string>
+    <string name="per_widget">हर विजेट का कटआउट स्टोरेज</string>
+    <string name="clean_unused">अनुपयोगी कटआउट हटाएँ</string>
+    <string name="cleaned_n">%1$d अनुपयोगी फ़ाइलें हटाईं</string>
+    <string name="cleanup_skipped">छोड़ा गया: अभी गैलरी पढ़ी नहीं जा सकती, इसलिए कुछ नहीं हटाया।</string>
+    <string name="clear_cache">कैश साफ़ करें</string>
+    <string name="clear_cache_note">इससे केवल Widglet के कटआउट और कैश हटते हैं। ज़रूरत पड़ने पर वे फिर बन जाएँगे।</string>
+    <string name="clear_cache_confirm">Widglet के सभी कटआउट और कैश फ़ाइलें हटाएँ? आपकी गैलरी पर असर नहीं होगा।</string>
+    <string name="sampling">मापने के लिए कुछ असली कटआउट बना रहे हैं…</string>
+    <string name="estimate_btn">स्टोरेज का अनुमान लगाएँ</string>
+    <string name="estimate_failed">कोई फ़ोटो सैंपल नहीं हो सकी।</string>
+    <string name="estimate_line">%3$s गुणवत्ता पर %2$d फ़ोटो के लिए लगभग %1$s</string>
+    <string name="estimate_basis">%1$d असली सैंपल कटआउट पर आधारित; %2$d%% में स्पष्ट विषय नहीं था।</string>
+    <string name="estimate_big">यह काफ़ी जगह है। अगली कम गुणवत्ता पर लगभग %1$s (%2$s) होगा। लेज़ी मोड भी मदद करता है।</string>
+    <string name="use_x">%1$s उपयोग करें</string>
+    <string name="apply_quality">गुणवत्ता लागू करें</string>
+    <string name="cutout_off_note">इस विजेट के लिए कटआउट मोड बंद है; कुछ नहीं बनेगा।</string>
+
+    <string name="language">भाषा</string>
+    <string name="lang_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="lang_old_android">Android 12 पर ऐप सिस्टम भाषा का पालन करता है।</string>
+    <string name="stats_title">आपके आँकड़े (केवल इस फ़ोन पर)</string>
+    <string name="stats_local">स्थानीय रूप से गिने गए। कुछ भी फ़ोन से बाहर नहीं जाता।</string>
+    <string name="stat_shown">दिखाई गई फ़ोटो: %1$d</string>
+    <string name="stat_cutouts">बने कटआउट: %1$d (बिना विषय: %2$d)</string>
+    <string name="stat_saved">कटआउट %1$s लेते हैं, मूल फ़ोटो %2$s (%3$d%%)।</string>
+    <string name="stat_since">%1$s से</string>
+    <string name="reset_stats">आँकड़े रीसेट करें</string>
+    <string name="about_title">परिचय और निजता</string>
+    <string name="about_tips">सुझाव: फ़ोटो बदलने या सभी विजेट रोकने के लिए Widglet की क्विक सेटिंग्स टाइलें जोड़ें, और शॉर्टकट के लिए ऐप आइकन को देर तक दबाएँ।</string>
+    <string name="version_x">संस्करण %1$s</string>
+    <string name="replay_onboarding">परिचय फिर दिखाएँ</string>
+
+    <string name="e_timingmode_interval">हर…</string>
+    <string name="e_timingmode_daily">रोज़</string>
+    <string name="e_timingmode_slideshow">स्लाइडशो</string>
+    <string name="e_timingmode_unlock">अनलॉक पर</string>
+    <string name="e_timingmode_screen_on">स्क्रीन चालू होने पर</string>
+    <string name="e_timingmode_tap">टैप पर</string>
+    <string name="e_timingmode_manual">केवल मैन्युअल</string>
+    <string name="e_timingmode_interval_note">Android बैकग्राउंड अपडेट अधिकतम हर 15 मिनट में चलाता है, और बैटरी बचाने के लिए डोज़ में थोड़ी देर कर सकता है।</string>
+    <string name="e_timingmode_daily_note">दिन में एक बार, बैटरी बचाने के लिए Android द्वारा चुने समय पर।</string>
+    <string name="e_timingmode_slideshow_note">तेज़ बदलाव (5 सेकंड तक) होम स्क्रीन दिखने पर आपका लॉन्चर करता है। कुछ लॉन्चर इसे रोक या फिर से शुरू कर सकते हैं।</string>
+    <string name="e_timingmode_unlock_note">यथासंभव: Android अनलॉक की सूचना केवल चल रहे ऐप को देता है, इसलिए यह तभी काम करता है जब Widglet मेमोरी में हो। टैप हमेशा काम करता है।</string>
+    <string name="e_timingmode_screen_on_note">यथासंभव: Android स्क्रीन चालू होने की सूचना केवल चल रहे ऐप को देता है।</string>
+    <string name="e_timingmode_tap_note">केवल विजेट पर टैप करने पर बदलता है।</string>
+    <string name="e_timingmode_manual_note">केवल ऐप, क्विक सेटिंग्स टाइल या ऐप शॉर्टकट से बदलता है।</string>
+
+    <string name="e_order_sequential">क्रम से</string>
+    <string name="e_order_shuffle">शफ़ल</string>
+    <string name="e_order_newest">नई पहले</string>
+    <string name="e_order_oldest">पुरानी पहले</string>
+
+    <string name="e_transition_none">कोई नहीं</string>
+    <string name="e_transition_crossfade">क्रॉसफ़ेड</string>
+    <string name="e_transition_slide">स्लाइड</string>
+    <string name="e_transition_zoom">ज़ूम</string>
+    <string name="e_transition_flip">फ़्लिप</string>
+    <string name="e_transition_ken_burns">केन बर्न्स</string>
+    <string name="e_transition_none_note">तुरंत बदलाव।</string>
+    <string name="e_transition_crossfade_note">पुरानी फ़ोटो से नई फ़ोटो में धीरे से बदलता है।</string>
+    <string name="e_transition_slide_note">नई फ़ोटो किनारे से अंदर आती है।</string>
+    <string name="e_transition_zoom_note">नई फ़ोटो ज़ूम होते हुए दिखती है।</string>
+    <string name="e_transition_flip_note">2D कार्ड फ़्लिप (असली 3D फ़्लिप केवल स्लाइडशो मोड में)।</string>
+    <string name="e_transition_ken_burns_note">धीरे दिखती है, फिर लगभग 20 सेकंड धीरे-धीरे ज़ूम होती है। ज़ूम में गोल कोने कट सकते हैं।</string>
+
+    <string name="e_speed_fast">तेज़</string>
+    <string name="e_speed_medium">मध्यम</string>
+    <string name="e_speed_slow">धीमी</string>
+
+    <string name="e_cutoutbg_transparent">पारदर्शी</string>
+    <string name="e_cutoutbg_solid">एक रंग</string>
+    <string name="e_cutoutbg_gradient">ग्रेडिएंट</string>
+    <string name="e_cutoutbg_blur">धुंधली फ़ोटो</string>
+    <string name="e_cutoutbg_original">मूल फ़ोटो</string>
+    <string name="e_cutoutbg_transparent_note">केवल विषय, आपके वॉलपेपर पर तैरता हुआ।</string>
+    <string name="e_cutoutbg_original_note">पूरी फ़ोटो पीछे रहती है; घड़ी चालू हो तो विषय घड़ी के सामने उभरता है।</string>
+
+    <string name="e_nosubjectaction_show_full">पूरी फ़ोटो दिखाएँ</string>
+    <string name="e_nosubjectaction_skip">फ़ोटो छोड़ें</string>
+
+    <string name="e_quality_low">कम</string>
+    <string name="e_quality_medium">मध्यम</string>
+    <string name="e_quality_high">उच्च</string>
+    <string name="e_quality_max">अधिकतम</string>
+    <string name="e_quality_low_note">512 px तक। सबसे छोटी फ़ाइलें; छोटे विजेट के लिए ठीक।</string>
+    <string name="e_quality_medium_note">800 px तक। 2×2 से 4×2 विजेट के लिए अच्छा।</string>
+    <string name="e_quality_high_note">1080 px तक। बड़े विजेट पर साफ़।</string>
+    <string name="e_quality_max_note">1600 px तक। विजेट इससे ज़्यादा नहीं दिखा सकते, इसलिए 12 MP कटआउट केवल जगह बर्बाद करेंगे।</string>
+
+    <string name="e_widgetlayout_single">एकल</string>
+    <string name="e_widgetlayout_stack">फ़ोटो ढेर</string>
+    <string name="e_widgetlayout_collage">कोलाज</string>
+    <string name="e_widgetlayout_stack_note">हाल की फ़ोटो प्रिंट की तरह ढेर में; ऊपर वाली बदलती है।</string>
+    <string name="e_widgetlayout_collage_note">एक साथ 2–4 फ़ोटो, विजेट के आकार के अनुसार ग्रिड।</string>
+
+    <string name="e_shape_rounded">गोल कोने</string>
+    <string name="e_shape_circle">वृत्त</string>
+    <string name="e_shape_squircle">स्क्वर्कल</string>
+    <string name="e_shape_heart">दिल</string>
+    <string name="e_shape_flower">फूल</string>
+    <string name="e_shape_polaroid">पोलरॉइड</string>
+    <string name="e_shape_film">फ़िल्म स्ट्रिप</string>
+
+    <string name="e_fit_smart_fill">भरें (स्मार्ट)</string>
+    <string name="e_fit_fit">पूरी दिखाएँ</string>
+    <string name="e_fit_center_crop">बीच से काटें</string>
+    <string name="e_fit_smart_fill_note">विजेट भरता है और कटआउट होने पर विषय को दिखाई देता रखता है।</string>
+    <string name="e_fit_fit_note">पूरी फ़ोटो दिखाता है; खाली जगह रह सकती है।</string>
+
+    <string name="e_photofilter_none">कोई नहीं</string>
+    <string name="e_photofilter_mono">श्वेत-श्याम</string>
+    <string name="e_photofilter_dot_matrix">डॉट मैट्रिक्स</string>
+
+    <string name="e_textstyle_normal">सामान्य</string>
+    <string name="e_textstyle_dot_matrix">डॉट मैट्रिक्स</string>
+
+    <string name="e_clockpos_top">ऊपर</string>
+    <string name="e_clockpos_center">बीच में</string>
+    <string name="e_clockpos_bottom">नीचे</string>
+
+    <string name="e_tapaction_next">अगली फ़ोटो</string>
+    <string name="e_tapaction_open_photo">गैलरी में खोलें</string>
+    <string name="e_tapaction_open_app">Widglet खोलें</string>
+    <string name="e_tapaction_none">कुछ नहीं</string>
+
+    <string name="e_doubletapaction_none">कुछ नहीं</string>
+    <string name="e_doubletapaction_previous">पिछली फ़ोटो</string>
+    <string name="e_doubletapaction_pause">सभी रोकें / चलाएँ</string>
+
+    <string name="e_timeslot_morning">सुबह (5–12)</string>
+    <string name="e_timeslot_afternoon">दोपहर (12–17)</string>
+    <string name="e_timeslot_evening">शाम (17–21)</string>
+    <string name="e_timeslot_night">रात (21–5)</string>
+    <string name="e_timeslot_weekday">सप्ताह के दिन</string>
+    <string name="e_timeslot_weekend">सप्ताहांत</string>
+
+    <string name="e_level_low">कम</string>
+    <string name="e_level_medium">मध्यम</string>
+    <string name="e_level_high">अधिक</string>
+</resources>

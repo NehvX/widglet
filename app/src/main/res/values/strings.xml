@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Widglet</string>
+    <string name="widget_description">Your photos on the home screen: albums or hand-picked, with cutouts, clocks and transitions.</string>
+    <string name="widget_loading">Loading…</string>
+    <string name="widget_setup">Tap to set up Widglet</string>
+    <string name="widget_permission">Widglet needs photo access. Tap to open.</string>
+    <string name="widget_empty">No photos to show. Tap to choose albums or photos.</string>
+    <string name="widget_cd">Photo widget: %1$s</string>
+    <string name="tile_next">Next photo</string>
+    <string name="tile_pause">Pause Widglet</string>
+    <string name="paused">Paused</string>
+    <string name="running">Running</string>
+    <string name="shortcut_add">Add widget</string>
+    <string name="shortcut_next">Next photo</string>
+    <string name="toast_next">Changing photos…</string>
+    <string name="no_viewer">No app can open this photo.</string>
+    <string name="pin_unsupported">Your launcher can\'t add widgets from apps. Long-press the home screen → Widgets → Widglet.</string>
+
+    <!-- Onboarding -->
+    <string name="onb_title">Welcome to Widglet</string>
+    <string name="onb_intro">Put your favourite photos on your home screen, change them on your schedule, and even cut out the subject so it pops in front of a clock.</string>
+    <string name="onb_readonly_t">Your gallery stays untouched</string>
+    <string name="onb_readonly">Widglet only ever reads your photos. It never deletes, moves, edits or re-saves anything in your gallery. Cutouts and caches live in Widglet\'s private storage.</string>
+    <string name="onb_perm_t">Photo access</string>
+    <string name="onb_perm">To list your albums Widglet asks to read photos. On Android 14+ you can allow only selected photos; Widglet works with that too.</string>
+    <string name="onb_privacy_t">Private by design</string>
+    <string name="onb_privacy">No network permission, no analytics, no ads, no accounts. All processing (including background removal) happens on your phone.</string>
+    <string name="onb_allow">Allow photo access</string>
+    <string name="onb_picker_only">Continue without (hand-pick photos only)</string>
+    <string name="onb_picker_note">Hand-picking photos uses the system Photo Picker and needs no permission.</string>
+
+    <!-- Home -->
+    <string name="add_widget">Add widget</string>
+    <string name="storage">Storage</string>
+    <string name="settings">Settings</string>
+    <string name="partial_title">Access to selected photos only</string>
+    <string name="partial_body">Albums will only show the photos you allowed. You can select more at any time, or allow all photos in system settings.</string>
+    <string name="noperm_title">No photo access</string>
+    <string name="noperm_body">Albums need photo access. Hand-picked photos still work without it.</string>
+    <string name="select_more">Select more photos</string>
+    <string name="grant">Allow access</string>
+    <string name="open_settings">System settings</string>
+    <string name="pause_all">Pause all widgets</string>
+    <string name="pause_all_sub">Stops timed photo changes (also available as a Quick Settings tile).</string>
+    <string name="no_widgets">No widgets yet</string>
+    <string name="no_widgets_hint">Tap \"Add widget\", or long-press your home screen → Widgets → Widglet.</string>
+    <string name="widget_n">Widget %1$d</string>
+    <string name="not_set_up">Not set up yet</string>
+    <string name="sources_summary">%1$d albums · %2$d picked photos</string>
+    <string name="cutout">Cutout</string>
+    <string name="next_photo">Next photo</string>
+    <string name="duplicate">Duplicate widget</string>
+    <string name="edit">Edit</string>
+
+    <!-- Editor -->
+    <string name="setup_widget">Set up widget</string>
+    <string name="edit_widget">Edit widget</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="widget_name">Widget name</string>
+    <string name="preview_loading">Loading preview…</string>
+    <string name="preview_empty">Choose albums or photos to see a preview</string>
+    <string name="preview_cd">Widget preview</string>
+    <string name="size_actual">Actual size</string>
+
+    <string name="sec_photos">Photos</string>
+    <string name="readonly_reminder">Widglet only reads these photos. Nothing in your gallery is ever changed.</string>
+    <string name="albums">Albums</string>
+    <string name="no_albums_selected">No albums selected.</string>
+    <string name="remove_x">Remove %1$s</string>
+    <string name="choose_albums">Choose albums</string>
+    <string name="pick_photos">Pick photos</string>
+    <string name="picked_count">%1$d hand-picked photos</string>
+    <string name="clear_picked">Remove all hand-picked photos</string>
+    <string name="manage_photos">Manage photos (%1$d hidden)</string>
+    <string name="no_albums_found">No albums found. Check photo access.</string>
+    <string name="n_photos">%1$d photos</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="sec_smart">Smart selection</string>
+    <string name="on_this_day">On this day</string>
+    <string name="on_this_day_sub">Photos taken on today\'s date in earlier years (falls back to all photos if none).</string>
+    <string name="favourites_only">Favourites only</string>
+    <string name="favourites_sub">Uses the favourite flag from your gallery (read-only).</string>
+    <string name="skip_screenshots">Skip screenshots</string>
+    <string name="skip_small">Skip small images</string>
+    <string name="skip_small_sub">Ignore images whose shorter side is under %1$d px.</string>
+    <string name="min_side">Minimum shorter side</string>
+    <string name="skip_duplicates">Skip duplicates</string>
+    <string name="skip_duplicates_sub">Same size and dimensions count as a duplicate.</string>
+    <string name="date_range">Date range</string>
+    <string name="from_x">From: %1$s</string>
+    <string name="to_x">To: %1$s</string>
+    <string name="any">any</string>
+    <string name="clear">Clear</string>
+    <string name="time_rules">Time-based albums</string>
+    <string name="time_rules_sub">Different albums for morning, afternoon, evening, night or weekdays/weekends.</string>
+    <string name="use_default_albums">Uses the albums above</string>
+    <string name="change">Change</string>
+
+    <string name="sec_timing">When photos change</string>
+    <string name="when_change">Change photo</string>
+    <string name="every">Every</string>
+    <string name="custom">Custom</string>
+    <string name="custom_interval">Custom interval</string>
+    <string name="flip_every">Flip every</string>
+    <string name="order">Order</string>
+    <string name="skip_saver">Pause in battery saver</string>
+    <string name="skip_saver_sub">Don\'t change photos while Battery Saver is on.</string>
+    <string name="battery_impact">Battery impact: %1$s</string>
+    <string name="battery_event">Changes only when you act (tap, unlock or screen on); no timed wake-ups.</string>
+    <string name="battery_slideshow">No wake-ups: your launcher flips the photos while the home screen is visible.</string>
+    <string name="battery_wakeups">About %1$d background updates per day (batched by Android).</string>
+    <string name="hours_n">%1$d h</string>
+    <string name="minutes_n">%1$d min</string>
+
+    <string name="sec_transition">Transition</string>
+    <string name="speed">Speed</string>
+    <string name="transition_limits">Widgets can only use simple view animations. Some launchers skip animations entirely; the photo still changes.</string>
+
+    <string name="sec_cutout">Cutout (subject only)</string>
+    <string name="cutout_mode">Cutout mode</string>
+    <string name="cutout_mode_sub">Remove the background on-device and show just the subject.</string>
+    <string name="cutout_bg">Behind the cutout</string>
+    <string name="bg_color_cutout">Background colour</string>
+    <string name="gradient_end">Gradient end colour</string>
+    <string name="no_subject">If no clear subject is found</string>
+    <string name="quality">Cutout quality</string>
+    <string name="see_estimate">See storage estimate</string>
+    <string name="prefer_subjects">Prefer photos with a subject</string>
+    <string name="prefer_subjects_sub">Show photos with a ready cutout first.</string>
+    <string name="lazy_mode">Lazy mode</string>
+    <string name="lazy_mode_sub">Only prepare the next %1$d photos instead of the whole album. Saves storage.</string>
+    <string name="lazy_count">Photos to prepare ahead</string>
+    <string name="only_charging">Batch processing only while charging</string>
+    <string name="only_wifi">Batch processing only on Wi-Fi</string>
+    <string name="only_wifi_sub">Processing is on-device; this simply waits for an unmetered connection as a proxy for \"at home\".</string>
+    <string name="shadow">Shadow</string>
+    <string name="softness">Softness</string>
+    <string name="offset">Offset</string>
+    <string name="sticker_outline">Sticker outline</string>
+    <string name="thickness">Thickness</string>
+    <string name="outline_color">Outline colour</string>
+    <string name="model_downloading">Google Play services is still downloading the on-device segmentation model. Widglet will retry automatically.</string>
+    <string name="cutouts_waiting">Waiting to start (charging / Wi-Fi conditions)…</string>
+    <string name="cutouts_progress">Making cutouts: %1$d of %2$d</string>
+    <string name="generate_all">Generate all cutouts now</string>
+    <string name="cutout_model_note">Uses ML Kit subject segmentation on your phone. Nothing is uploaded.</string>
+
+    <string name="sec_look">Size &amp; look</string>
+    <string name="layout">Layout</string>
+    <string name="collage_count">Photos in collage</string>
+    <string name="shape">Shape / frame</string>
+    <string name="corner_radius">Corner radius</string>
+    <string name="padding">Padding</string>
+    <string name="fit">Photo fit</string>
+    <string name="filter">Filter</string>
+    <string name="widget_bg">Widget background</string>
+    <string name="border">Border</string>
+    <string name="border_width">Border width</string>
+    <string name="border_color">Border colour</string>
+    <string name="opacity">Opacity</string>
+    <string name="color_transparent">Transparent</string>
+
+    <string name="sec_overlay">Text &amp; clock</string>
+    <string name="show_date">Show date taken</string>
+    <string name="show_album">Show album name</string>
+    <string name="text_style">Text style</string>
+    <string name="accent">Accent colour</string>
+    <string name="clock">Clock</string>
+    <string name="clock_sub">A live clock. With cutout mode the subject sits in front of it (depth effect).</string>
+    <string name="clock_pos">Clock position</string>
+    <string name="clock_mono">Monospace digits</string>
+    <string name="clock_date">Show date under the clock</string>
+    <string name="clock_color">Clock colour</string>
+    <string name="make_depth">Make it a depth clock (cutout over the original photo)</string>
+
+    <string name="sec_tap">Tap actions</string>
+    <string name="on_tap">On tap</string>
+    <string name="on_double_tap">On double tap</string>
+    <string name="double_tap_note">With double tap on, a single tap waits a moment before acting.</string>
+    <string name="long_press_note">Long-press is reserved by launchers for moving and resizing widgets, so it can\'t be customised.</string>
+
+    <string name="sec_presets">Presets, copy &amp; backup</string>
+    <string name="builtin_presets">Built-in styles</string>
+    <string name="my_presets">My styles</string>
+    <string name="save_preset">Save style</string>
+    <string name="share_preset">Share style</string>
+    <string name="paste_preset">Import style</string>
+    <string name="preset_name">Style name</string>
+    <string name="preset_json">Paste shared style text</string>
+    <string name="copy_from">Copy all settings from</string>
+    <string name="backup">Backup</string>
+    <string name="export">Export settings</string>
+    <string name="import_">Import</string>
+    <string name="backup_note">Exports this widget\'s settings as a JSON file to a place you choose. Photos are never exported.</string>
+    <string name="exported">Settings exported</string>
+    <string name="export_failed">Export failed</string>
+    <string name="imported">Settings imported</string>
+    <string name="import_failed">Couldn\'t read those settings</string>
+    <string name="save">Save</string>
+
+    <!-- Photos / touch-up -->
+    <string name="manage_photos_title">Photos in this widget</string>
+    <string name="hide_note">Tap a photo to hide it from this widget. This only affects Widglet, never your gallery.</string>
+    <string name="hidden">Hidden</string>
+    <string name="photo">Photo</string>
+    <string name="hide">Hide from widget</string>
+    <string name="unhide">Show in widget</string>
+    <string name="cutout_ready">Cutout ready</string>
+    <string name="cutout_none">No clear subject found</string>
+    <string name="cutout_missing">Cutout not generated yet</string>
+    <string name="touch_up">Touch up cutout</string>
+    <string name="close">Close</string>
+    <string name="erase">Erase</string>
+    <string name="restore">Restore</string>
+    <string name="brush_size">Brush size</string>
+    <string name="touch_up_note">Edits are saved to Widglet\'s private copy of the cutout only. Your original photo is not changed.</string>
+
+    <!-- Storage -->
+    <string name="space_used">Space used by Widglet</string>
+    <string name="usage_breakdown">Cutouts %1$s · Cache %2$s · Settings %3$s</string>
+    <string name="free_space">Free on device: %1$s</string>
+    <string name="private_only">Everything here is in Widglet\'s private storage. Your gallery is never counted or touched.</string>
+    <string name="per_widget">Cutout storage per widget</string>
+    <string name="clean_unused">Remove unused cutouts</string>
+    <string name="cleaned_n">Removed %1$d unused files</string>
+    <string name="cleanup_skipped">Skipped: can\'t read the gallery right now, so nothing was removed.</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="clear_cache_note">Clearing removes only Widglet\'s cutouts and caches. They will be rebuilt as needed.</string>
+    <string name="clear_cache_confirm">Delete all of Widglet\'s cutouts and cached files? Your gallery is not affected.</string>
+    <string name="sampling">Making a few real cutouts to measure…</string>
+    <string name="estimate_btn">Estimate storage</string>
+    <string name="estimate_failed">Couldn\'t sample any photos.</string>
+    <string name="estimate_line">About %1$s for %2$d photos at %3$s quality</string>
+    <string name="estimate_basis">Based on %1$d real sample cutouts; %2$d%% had no clear subject.</string>
+    <string name="estimate_big">That\'s a lot of space. At the next lower quality it would be about %1$s (%2$s). Lazy mode also helps.</string>
+    <string name="use_x">Use %1$s</string>
+    <string name="apply_quality">Apply quality</string>
+    <string name="cutout_off_note">Cutout mode is off for this widget; nothing will be generated.</string>
+
+    <!-- Settings -->
+    <string name="language">Language</string>
+    <string name="lang_system">System default</string>
+    <string name="lang_old_android">On Android 12 the app follows your system language.</string>
+    <string name="stats_title">Your stats (on this phone only)</string>
+    <string name="stats_local">Counted locally. Nothing ever leaves your phone.</string>
+    <string name="stat_shown">Photos shown: %1$d</string>
+    <string name="stat_cutouts">Cutouts made: %1$d (no subject: %2$d)</string>
+    <string name="stat_saved">Cutouts use %1$s vs %2$s for the originals (%3$d%%).</string>
+    <string name="stat_since">Since %1$s</string>
+    <string name="reset_stats">Reset stats</string>
+    <string name="about_title">About &amp; privacy</string>
+    <string name="about_tips">Tip: add Widglet\'s Quick Settings tiles to skip photos or pause all widgets, and long-press the app icon for shortcuts.</string>
+    <string name="version_x">Version %1$s</string>
+    <string name="replay_onboarding">Show introduction again</string>
+
+    <!-- Enum labels -->
+    <string name="e_timingmode_interval">Every…</string>
+    <string name="e_timingmode_daily">Daily</string>
+    <string name="e_timingmode_slideshow">Slideshow</string>
+    <string name="e_timingmode_unlock">On unlock</string>
+    <string name="e_timingmode_screen_on">On screen on</string>
+    <string name="e_timingmode_tap">On tap</string>
+    <string name="e_timingmode_manual">Manual only</string>
+    <string name="e_timingmode_interval_note">Android runs background updates at most every 15 minutes, and may delay them a little in Doze to save battery.</string>
+    <string name="e_timingmode_daily_note">Once a day, at a time Android picks to save battery.</string>
+    <string name="e_timingmode_slideshow_note">Fast changes (down to 5 s) handled by your launcher while the home screen is visible. Some launchers pause or restart it; the order may restart when the widget is redrawn.</string>
+    <string name="e_timingmode_unlock_note">Best effort: Android only tells running apps about unlocks, so this works while Widglet is in memory. Tap still works any time.</string>
+    <string name="e_timingmode_screen_on_note">Best effort: Android only tells running apps when the screen turns on, so this works while Widglet is in memory.</string>
+    <string name="e_timingmode_tap_note">Changes only when you tap the widget.</string>
+    <string name="e_timingmode_manual_note">Changes only from the app, the Quick Settings tile or the app shortcut.</string>
+
+    <string name="e_order_sequential">Sequential</string>
+    <string name="e_order_shuffle">Shuffle</string>
+    <string name="e_order_newest">Newest first</string>
+    <string name="e_order_oldest">Oldest first</string>
+
+    <string name="e_transition_none">None</string>
+    <string name="e_transition_crossfade">Crossfade</string>
+    <string name="e_transition_slide">Slide</string>
+    <string name="e_transition_zoom">Zoom</string>
+    <string name="e_transition_flip">Flip</string>
+    <string name="e_transition_ken_burns">Ken Burns</string>
+    <string name="e_transition_none_note">Instant change.</string>
+    <string name="e_transition_crossfade_note">Fades from the old photo to the new one.</string>
+    <string name="e_transition_slide_note">The new photo slides in from the side.</string>
+    <string name="e_transition_zoom_note">The new photo zooms in while fading.</string>
+    <string name="e_transition_flip_note">A 2D card flip (true 3D flip only in Slideshow mode).</string>
+    <string name="e_transition_ken_burns_note">Fades in, then slowly zooms for about 20 s and holds. Rounded corners may be cropped while zoomed.</string>
+
+    <string name="e_speed_fast">Fast</string>
+    <string name="e_speed_medium">Medium</string>
+    <string name="e_speed_slow">Slow</string>
+
+    <string name="e_cutoutbg_transparent">Transparent</string>
+    <string name="e_cutoutbg_solid">Solid colour</string>
+    <string name="e_cutoutbg_gradient">Gradient</string>
+    <string name="e_cutoutbg_blur">Blurred photo</string>
+    <string name="e_cutoutbg_original">Original photo</string>
+    <string name="e_cutoutbg_transparent_note">Just the subject, floating on your wallpaper.</string>
+    <string name="e_cutoutbg_original_note">The full photo stays behind; with the clock on, the subject pops in front of the clock.</string>
+
+    <string name="e_nosubjectaction_show_full">Show full photo</string>
+    <string name="e_nosubjectaction_skip">Skip the photo</string>
+
+    <string name="e_quality_low">Low</string>
+    <string name="e_quality_medium">Medium</string>
+    <string name="e_quality_high">High</string>
+    <string name="e_quality_max">Maximum</string>
+    <string name="e_quality_low_note">Up to 512 px. Smallest files; fine for small widgets.</string>
+    <string name="e_quality_medium_note">Up to 800 px. Good for 2×2 to 4×2 widgets.</string>
+    <string name="e_quality_high_note">Up to 1080 px. Sharp on large widgets.</string>
+    <string name="e_quality_max_note">Up to 1600 px. Widgets can\'t display more, so full 12 MP cutouts would only waste space.</string>
+
+    <string name="e_widgetlayout_single">Single</string>
+    <string name="e_widgetlayout_stack">Photo stack</string>
+    <string name="e_widgetlayout_collage">Collage</string>
+    <string name="e_widgetlayout_stack_note">Recent photos piled up like prints; the top one changes.</string>
+    <string name="e_widgetlayout_collage_note">2–4 photos at once in a grid that adapts to the widget\'s shape.</string>
+
+    <string name="e_shape_rounded">Rounded</string>
+    <string name="e_shape_circle">Circle</string>
+    <string name="e_shape_squircle">Squircle</string>
+    <string name="e_shape_heart">Heart</string>
+    <string name="e_shape_flower">Flower</string>
+    <string name="e_shape_polaroid">Polaroid</string>
+    <string name="e_shape_film">Film strip</string>
+
+    <string name="e_fit_smart_fill">Fill (smart)</string>
+    <string name="e_fit_fit">Fit</string>
+    <string name="e_fit_center_crop">Crop to centre</string>
+    <string name="e_fit_smart_fill_note">Fills the widget and keeps the detected subject in view when a cutout exists.</string>
+    <string name="e_fit_fit_note">Shows the whole photo; may leave empty space.</string>
+
+    <string name="e_photofilter_none">None</string>
+    <string name="e_photofilter_mono">Monochrome</string>
+    <string name="e_photofilter_dot_matrix">Dot matrix</string>
+
+    <string name="e_textstyle_normal">Normal</string>
+    <string name="e_textstyle_dot_matrix">Dot matrix</string>
+
+    <string name="e_clockpos_top">Top</string>
+    <string name="e_clockpos_center">Centre</string>
+    <string name="e_clockpos_bottom">Bottom</string>
+
+    <string name="e_tapaction_next">Next photo</string>
+    <string name="e_tapaction_open_photo">Open in gallery</string>
+    <string name="e_tapaction_open_app">Open Widglet</string>
+    <string name="e_tapaction_none">Nothing</string>
+
+    <string name="e_doubletapaction_none">Nothing</string>
+    <string name="e_doubletapaction_previous">Previous photo</string>
+    <string name="e_doubletapaction_pause">Pause / resume all</string>
+
+    <string name="e_timeslot_morning">Morning (5–12)</string>
+    <string name="e_timeslot_afternoon">Afternoon (12–17)</string>
+    <string name="e_timeslot_evening">Evening (17–21)</string>
+    <string name="e_timeslot_night">Night (21–5)</string>
+    <string name="e_timeslot_weekday">Weekdays</string>
+    <string name="e_timeslot_weekend">Weekends</string>
+
+    <string name="e_level_low">Low</string>
+    <string name="e_level_medium">Medium</string>
+    <string name="e_level_high">High</string>
+</resources>
